@@ -1,0 +1,61 @@
+.card_item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 10px auto;
+    width: 320px;
+    height: 400px;
+    background: #272d40;
+    padding: 20px;
+    border-radius: 15px;
+    color: white; 
+    position: relative;
+}
+
+.card_like, .card_cart {
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    color: white;
+	text-decoration: none;
+	transition: 0.5s;
+    cursor: pointer;
+}
+
+.card_cart {
+    left: unset;
+    right: 20px;
+}
+
+.card .card_cart:hover {
+    color: var(--primary-color);
+}
+
+.card_img {
+    width: 90%;
+    transition: 0.5s;
+    transition-delay: 0.15s;
+}
+
+.card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_title, .card_price {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    transition: 0.5s;
+    transition-delay: 0.15s;
+}
+
+.card_title {
+    color: var(--primary-color);
+}
