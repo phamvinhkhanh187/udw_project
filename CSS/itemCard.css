@@ -1,14 +1,16 @@
 .card_item {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    justify-content: space-between;
+    justify-content:left;
 }
 
 .card {
-    margin: 10px auto;
-    width: 25%;
-    height: 30%;
+    margin: 30px 20px;
+    width: 21%;
+    height: 29%;
     background: #272d40;
     padding: 20px;
     border-radius: 15px;
@@ -16,32 +18,12 @@
     position: relative;
 }
 
-.card_like, .card_cart {
-    font-size: 25px;
-    position: absolute;
-    left: 20px;
-    top: 15px;
-    color: white;
-	text-decoration: none;
-	transition: 0.5s;
-    cursor: pointer;
-}
-
-.card_cart {
-    left: unset;
-    right: 20px;
-}
-
-.card .card_cart:hover {
-    color: var(--primary-color);
-}
-
 .card_img {
-    width: 85%;
-    height: 70%;
+    width: 95%;
+    height: 50%;
     transition: 0.5s;
     transition-delay: 0.15s;
-    transform: translateX(22px);
+    transform: translateX(7px);
     border-radius: 5px;
     overflow: hidden;
 }
@@ -62,18 +44,22 @@
     text-align: center;
     transition: 0.5s;
     transition-delay: 0.15s;
+    margin-top: 5px;
 }
 
 .card_title {
     color: var(--primary-color);
+    margin: 10px;
 }
 
 .card_action {
-    margin-top: 30px;
+    position: absolute;
+    margin: 10px 0;
+    bottom: 20px;
 }
 
 .card_action input {
-    width: 120px;
+    width: 30%;
     margin: 0 10px;
     border: unset;
     outline: unset;
@@ -81,13 +67,21 @@
 }
 
 .card_action button {
-    width: 120px;
+    width: 50%;
     border: unset;
     outline: unset;
     background: var(--primary-color);
     color: white;
     border-radius: 5px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+      float: none;
+      width: 100%;
+      height: 10%;
+    }
 }
 
 
