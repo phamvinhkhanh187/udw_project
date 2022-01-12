@@ -111,10 +111,10 @@ body {
 .pagination {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.pagination a { 
+.pagination button { 
     font-weight: bold;   
     font-family: Arial, Verdana, sans-serif;
     font-size: 15px;
@@ -129,7 +129,7 @@ body {
     width: auto;
 }
 
-.pagination a.active {
+.pagination button.active {
     font-weight: bold; 
     font-family: Arial, Verdana, sans-serif;
     font-size: 15px;
@@ -142,7 +142,7 @@ body {
     margin: 0 2px;
     font-style: normal;
 }
-.pagination a.die {
+.pagination button.die {
     font-weight: bold; 
     font-family: Arial, Verdana, sans-serif;
     font-size: 15px;
@@ -155,7 +155,7 @@ body {
     margin: 0 2px;
     font-style: normal;
 }
-.pagination a:hover:not(.active) {color: white;}
+.pagination button:hover:not(.active) {color: white;}
 
 .footer {
     padding: 20px;
@@ -163,31 +163,4 @@ body {
     background: #ddd;
     margin-top: 20px;
     color: #aaa;
-}
-
-@media screen and (max-width: 400px) {
-    .sider, .main_content {   
-      width: 100%;
-      padding: 0;
-    }
-
-    .sider {
-        height: 100%;
-    }
-
-    .bestSeller {
-        position: fixed;
-        visibility: hidden;
-    }
-
-    .content{
-        flex-direction: column;
-    }
-}
-  
-@media screen and (max-width: 400px) {
-    .header a {
-      float: none;
-      width: 100%;
-    }
 }
