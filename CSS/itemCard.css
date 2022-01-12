@@ -38,6 +38,7 @@
 
 .card_img {
     width: 85%;
+    height: 70%;
     transition: 0.5s;
     transition-delay: 0.15s;
     transform: translateX(22px);
