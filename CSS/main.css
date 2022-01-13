@@ -76,32 +76,8 @@ body {
     display: flex;
 }
 
-.sider {
-    width: 15%;
-    height: 1500px;
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
-.menu {
-    background: #9eb1b3;
-    text-align: center;
-    color: #f1f1f1;
-    width: 100%;
-    height: 700px;
-    border-radius: 5px;
-}
-
-.bestSeller {
-    background: #9eb1b3;
-    width: 100%;
-    height: 800px;
-    margin-top: 5px;
-}
-
 .main_content {
-    width: 85%;
+    width: 100%;
     height: 1500px;
     margin: 5px;
     background: #9eb1b3;
