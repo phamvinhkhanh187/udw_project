@@ -60,7 +60,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 5px;
-    margin: 0 20px;
+    margin: 0 15px;
 }
   
 .header a:hover {
@@ -84,6 +84,7 @@ body {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .pagination {

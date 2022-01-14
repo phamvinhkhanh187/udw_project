@@ -59,7 +59,6 @@ function searchData(){
     }
     else
         renderFilterData(dataFilter)
-    console.log(valueSearch)
 }
 
 function handlePage(key){
