@@ -40,8 +40,8 @@ let data = [
         "id": 5,
         "title": "bo",
         "name": "Bơ 034",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "90,000",
+        "price": 90000,
         "image": "./Images/bo_034.jpg"
     },
     {
@@ -49,8 +49,8 @@ let data = [
         "id": 6,
         "title": "bo",
         "name": "Bơ Booth",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "45,000",
+        "price": 45000,
         "image": "./Images/bo_booth.jpg"
     },
     {
@@ -58,8 +58,8 @@ let data = [
         "id": 7,
         "title": "bo",
         "name": "Bơ Fuerte",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "70,000",
+        "price": 70000,
         "image": "./Images/bo_fuerte.jpg"
     },
     {
@@ -67,8 +67,8 @@ let data = [
         "id": 8,
         "title": "bo",
         "name": "Bơ Hass",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "100,000",
+        "price": 100000,
         "image": "./Images/bo_hass.jpg"
     },
     {
@@ -76,8 +76,8 @@ let data = [
         "id": 9,
         "title": "bo",
         "name": "Bơ Sáp",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "25,000",
+        "price": 25000,
         "image": "./Images/bo_sap.jpg"
     },
     {
@@ -85,8 +85,8 @@ let data = [
         "id": 10,
         "title": "bo",
         "name": "Bơ Tứ Quý",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "60,000",
+        "price": 60000,
         "image": "./Images/bo_tuquy.jpg"
     },
     {
@@ -94,8 +94,8 @@ let data = [
         "id": 11,
         "title": "chuoi",
         "name": "Chuối Bom",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "2,500",
+        "price": 2500,
         "image": "./Images/chuoi_bom.jpg"
     },
     {
@@ -103,8 +103,8 @@ let data = [
         "id": 12,
         "title": "chuoi",
         "name": "Chuối Cau",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "11,000",
+        "price": 11000,
         "image": "./Images/chuoi_cau.jpg"
     },
     {
@@ -112,8 +112,8 @@ let data = [
         "id": 13,
         "title": "chuoi",
         "name": "Chuối Tây",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "9,000",
+        "price": 9000,
         "image": "./Images/chuoi_tay.jpg"
     },
     {
@@ -121,8 +121,8 @@ let data = [
         "id": 14,
         "title": "chuoi",
         "name": "Chuối Tiêu",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "5,000",
+        "price": 5000,
         "image": "./Images/chuoi_tieu.jpg"
     },
     {
@@ -130,8 +130,8 @@ let data = [
         "id": 15,
         "title": "chuoi",
         "name": "Chuối Xanh",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "25,000",
+        "price": 25000,
         "image": "./Images/chuoi_xanh.jpg"
     },
     {
@@ -139,8 +139,8 @@ let data = [
         "id": 16,
         "title": "nho",
         "name": "Nho Đỏ",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "60,000",
+        "price": 60000,
         "image": "./Images/nho_do.jpg"
     },
     {
@@ -148,8 +148,8 @@ let data = [
         "id": 17,
         "title": "nho",
         "name": "Nho Móng Tay",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "280,000",
+        "price": 280000,
         "image": "./Images/nho_mongtay.jpg"
     },
     {
@@ -157,8 +157,8 @@ let data = [
         "id": 18,
         "title": "nho",
         "name": "Nho Mỹ",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "200,000",
+        "price": 200000,
         "image": "./Images/nho_My.jpg"
     },
     {
@@ -166,8 +166,8 @@ let data = [
         "id": 19,
         "title": "nho",
         "name": "Nho Nam Phi",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "250,000",
+        "price": 250000,
         "image": "./Images/nho_namphi.jpg"
     },
     {
@@ -175,8 +175,8 @@ let data = [
         "id": 20,
         "title": "nho",
         "name": "Nho Thân Gỗ",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "200,000",
+        "price": 200000,
         "image": "./Images/nho_thango.jpg"
     },
     {
@@ -184,8 +184,8 @@ let data = [
         "id": 21,
         "title": "nho",
         "name": "Nho Xanh",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "240,000",
+        "price": 240000,
         "image": "./Images/nho_xanh.jpg"
     },
     {
@@ -193,8 +193,8 @@ let data = [
         "id": 22,
         "title": "oi",
         "name": "Ổi Bo",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "12,000",
+        "price": 12000,
         "image": "./Images/oi_bo.jpg"
     },
     {
@@ -202,8 +202,8 @@ let data = [
         "id": 23,
         "title": "oi",
         "name": "Ổi Đài Loan",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "4,000",
+        "price": 4000,
         "image": "./Images/oi_dailoan.jpg"
     },
     {
@@ -211,8 +211,8 @@ let data = [
         "id": 24,
         "title": "oi",
         "name": "Ổi Dứa",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "700,000",
+        "price": 700000,
         "image": "./Images/oi_dua.jpg"
     },
     {
@@ -220,8 +220,8 @@ let data = [
         "id": 25,
         "title": "oi",
         "name": "Ổi Nữ Hoàng",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "23,000",
+        "price": 230000,
         "image": "./Images/oi_nuhoang.jpg"
     },
     {
@@ -238,8 +238,8 @@ let data = [
         "id": 27,
         "title": "oi",
         "name": "Ổi Xá Lị",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "18,000",
+        "price": 18000,
         "image": "./Images/oi_xali.jpg"
     },
     {
@@ -247,8 +247,8 @@ let data = [
         "id": 28,
         "title": "xoai",
         "name": "Xoài Bao Tử",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "25,000",
+        "price": 25000,
         "image": "./Images/xoai_baotu.jpg"
     },
     {
@@ -256,8 +256,8 @@ let data = [
         "id": 29,
         "title": "xoai",
         "name": "Xoài Cát",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "70,000",
+        "price": 70000,
         "image": "./Images/xoai_cat.jpg"
     },
     {
@@ -265,8 +265,8 @@ let data = [
         "id": 30,
         "title": "xoai",
         "name": "Xoài Giống Đài Loan",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "25,000",
+        "price": 25000,
         "image": "./Images/xoai_giongDailoan.jpg"
     },
     {
@@ -274,8 +274,8 @@ let data = [
         "id": 31,
         "title": "xoai",
         "name": "Xoài Keo",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "64,000",
+        "price": 64000,
         "image": "./Images/xoai_keo.jpg"
     },
     {
@@ -283,8 +283,44 @@ let data = [
         "id": 32,
         "title": "xoai",
         "name": "Xoài Tượng",
-        "priceDisplay": "40,000",
-        "price": 40000,
+        "priceDisplay": "30,000",
+        "price": 30000,
         "image": "./Images/xoai_tuong.jpg"
+    },
+    {
+        "userId": 1,
+        "id": 33,
+        "title": "cam",
+        "name": "Cam Sành",
+        "priceDisplay": "55,000",
+        "price": 55000,
+        "image": "./Images/cam_sanh.jpg"
+    },
+    {
+        "userId": 1,
+        "id": 34,
+        "title": "cam",
+        "name": "Cam Cao Phong",
+        "priceDisplay": "25,000",
+        "price": 25000,
+        "image": "./Images/cam_CaoPhong.jpg"
+    },
+    {
+        "userId": 1,
+        "id": 35,
+        "title": "cam",
+        "name": "Cam Vinh",
+        "priceDisplay": "50,000",
+        "price": 50000,
+        "image": "./Images/cam_vinh.jpg"
+    },
+    {
+        "userId": 1,
+        "id": 36,
+        "title": "cam",
+        "name": "Cam Mật",
+        "priceDisplay": "25,000",
+        "price": 25000,
+        "image": "./Images/cam_mat.jpg"
     },
 ]
