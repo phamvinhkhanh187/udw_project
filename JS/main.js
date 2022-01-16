@@ -18,8 +18,8 @@ function renderData(arr){
                 ${value.priceDisplay} VND/Kg
             </div>
             <div class="card_action">
-                <input type="number" min="1">
-                <button>Thêm vào giỏ</button>
+                <input type="number" min="1" placeholder=" Kg">
+                <button onclick="addToCart(${index})>Thêm vào giỏ</button>
             </div>
         </div>`
     })
@@ -42,7 +42,7 @@ function renderFilterData(arr){
             </div>
             <div class="card_action">
                 <input type="number" min="1">
-                <button>Thêm vào giỏ</button>
+                <button onclick="addToCart(${index})>Thêm vào giỏ</button>
             </div>
         </div>`
     })
@@ -82,10 +82,14 @@ function handlePage(key){
             </div>
             <div class="card_action">
                 <input type="number" min="1">
-                <button>Thêm vào giỏ</button>
+                <button onclick="addToCart(${index})">Thêm vào giỏ</button>
             </div>
         </div>`
     })
+}
+
+function addToCart(id){
+    console.log(arr[id])
 }
 
 perPost = data.slice(
