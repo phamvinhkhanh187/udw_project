@@ -5,7 +5,7 @@ let perPost = []
 
 function renderData(arr){
     let post = ``
-    perPost.map(value => {
+    perPost.map((value, index) => {
         post += 
         `<div class="card">
             <div class="card_img">
@@ -18,8 +18,7 @@ function renderData(arr){
                 ${value.priceDisplay} VND/Kg
             </div>
             <div class="card_action">
-                <input type="number" min="1" placeholder="Kg">
-                <button>Thêm vào giỏ</button>
+                <button onclick="addToCart(${value.id})">Thêm vào giỏ</button>
             </div>
         </div>`
     })
@@ -28,7 +27,7 @@ function renderData(arr){
 
 function renderFilterData(arr){
     let post = ``
-    arr.map(value => {
+    arr.map((value, index) => {
         post += 
         `<div class="card">
             <div class="card_img">
@@ -41,8 +40,7 @@ function renderFilterData(arr){
                 ${value.priceDisplay} VND/Kg
             </div>
             <div class="card_action">
-                <input type="number" min="1" placeholder="Kg">
-                <button placeholder="Kg">Thêm vào giỏ</button>
+                <button onclick="addToCart(${value.id})">Thêm vào giỏ</button>
             </div>
         </div>`
     })
@@ -68,7 +66,7 @@ function handlePage(key){
         (currentPage - 1) * perPage,
         (currentPage - 1) * perPage + perPage
     )
-    perPost.map(value=>{
+    perPost.map((value, index) =>{
         document.getElementById('posts').innerHTML += 
         `<div class="card">
             <div class="card_img">
@@ -81,8 +79,7 @@ function handlePage(key){
                 ${value.priceDisplay} VND/Kg
             </div>
             <div class="card_action">
-                <input type="number" min="1" placeholder="Kg">
-                <button>Thêm vào giỏ</button>
+                <button onclick="addToCart(${value.id})">Thêm vào giỏ</button>
             </div>
         </div>`
     })

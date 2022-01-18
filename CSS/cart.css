@@ -1,0 +1,42 @@
+.cart_table{
+    border: 1px solid black;
+    width: 70%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cart_table .cart_img{
+    width: 15%;
+}
+
+.cart_table button {
+    width: 75%;
+    border: unset;
+    outline: unset;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.cart_table img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.cart_table td,tr,th{
+    border: 1px solid black;
+}
+
+.cart_table .cart_quantily{
+    width: 20%;
+}
+
+.cart_table .cart_quantily input{
+    border: unset;
+    outline: unset;
+    background: unset;
+    width: 25%;
+}
+
