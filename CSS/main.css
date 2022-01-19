@@ -83,6 +83,7 @@ body {
     background: #9eb1b3;
     border-radius: 5px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     overflow: hidden;
 }
