@@ -127,7 +127,7 @@ body {
 .footer {
     padding: 30px;
     width: 100%;
-    height: auto;
+    height: 300px;
     text-align: left;
     background: rgb(72, 161, 54);
     margin-top: 0px;
@@ -141,15 +141,19 @@ body {
     text-decoration: none;
     margin-bottom: 0px;
     margin-top: 0px;
-    display: inline;
+    display: inline-block;
     align-self: center;
     columns: 50%;
     column-count: auto;
+    position: absolute;
 }
 .links {
     font-size: 120%;
     font-weight: 100;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    align-self: center;
+    align-self: right;
+    display: block;
+    columns: 50%;
+    column-count: auto;
 }
