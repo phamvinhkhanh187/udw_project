@@ -55,8 +55,9 @@ function searchData(){
     if (valueSearch == '') {
         renderData(perPost)
     }
-    else
+    else {
         renderFilterData(dataFilter)
+    }
 }
 
 function handlePage(key){
