@@ -1,0 +1,88 @@
+.modal{
+    display: inline;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+.modal_inner{
+    width: 60%;
+    height: 35%;
+    position: relative;
+    top: 25%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    animation: modalShow 0.2s linear;
+}
+
+.modal_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: var(--primary-color);
+    color: white;
+}
+
+.modal_header i{
+    cursor: pointer;
+}
+
+.modal_header i:hover{
+    transform: scale(1.2);
+}
+
+.modal_body{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_body input{
+    width: 50%;
+}
+
+.modal_body h2{
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.modal_footer{
+    padding: 15px;
+    text-align: right;
+}
+
+.modal_footer button{
+    padding: 10px 20px;
+    color: white;
+    background: var(--primary-color);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.modal_footer button:hover{
+    transform: scale(0.9);
+}
+
+.hide{
+    display: none;
+}
+
+@keyframes modalShow {
+    from{
+        top: -200px;
+        opacity: 0;
+    }
+
+    to{
+        top: 25%;
+        opacity: 1;
+    }
+}

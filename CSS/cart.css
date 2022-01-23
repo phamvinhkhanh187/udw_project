@@ -45,13 +45,13 @@
     width: 25%;
 }
 
-.cart_submit{
+.open-modal-btn{
     width: 20%;
     height: 3%;
     margin-top: 50px;
 }
 
-.cart_submit button{
+.open-modal-btn button{
     width: 100%;
     height: 100%;
     border: unset;
@@ -63,7 +63,12 @@
     transition: 0.2s;
 }
 
-.cart_submit:hover button{
+.open-modal-btn:hover button{
     transform: scale(0.9);
 }
 
+.cart_table_head{
+    background: var(--primary-color);
+    color: cornsilk;
+    font-weight: 700;
+}

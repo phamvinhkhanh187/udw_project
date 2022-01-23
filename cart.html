@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./CSS/itemCard.css">
     <link rel="stylesheet" href="./CSS/searchBox.css">
     <link rel="stylesheet" href="./CSS/cart.css">
+    <link rel="stylesheet" href="./CSS/modal.css">
 </head>
 <body onload="showCart()">
     <div class="logo">
@@ -46,7 +47,7 @@
     <div class="content">
         <div class="main_content_cart">
             <table class="cart_table">
-                <tr>
+                <tr class="cart_table_head">
                     <td class="cart_img">Sản phẩm</td>
                     <td>Tên sản phẩm</td>
                     <td>Đơn giá</td>
@@ -56,12 +57,27 @@
                 </tr>
                 <tbody id="cartList">
                 </tbody>
-                <tfoot id="cartTotal"></tfoot>
             </table>
-            <div class="cart_submit"><button>Đặt hàng</button></div>
+            <div class="open-modal-btn"><button>Đặt hàng</button></div>
         </div>
     </div>
 
+    <div class="modal hide">
+        <div class="modal_inner">
+            <div class="modal_header">
+                <p>Thông tin nhận hàng</p>
+                <i class='bx bx-x'></i>
+            </div>
+            <div class="modal_body">
+                <input type="text" placeholder="Họ và tên">
+                <input type="tel" placeholder="Số điện thoại">
+                <input type="text" placeholder="Địa chỉ">
+            </div>
+            <div class="modal_footer">
+                <button>Đặt hàng</button>
+            </div>
+        </div>
+    </div>
 
     <div class="footer">
         <div class="link">
@@ -97,4 +113,5 @@
 <script src="./JS/searchBox.js"></script>
 <script src="./js/main.js"></script>
 <script src="./JS/cart.js"></script>
+<script src="./JS/modal.js"></script>
 </html>

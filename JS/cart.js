@@ -37,7 +37,7 @@ function showCart(){
     })
 
     item += `
-        <tr>
+        <tr class="cart_table_head">
             <th colspan="4">Tổng đơn hàng</th>  
             <th colspan="2">${cartCost} VND</th>
         </tr>
