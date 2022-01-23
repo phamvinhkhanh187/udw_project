@@ -3,12 +3,8 @@ function totalCart(){
     let cartList = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
     let cartCost = localStorage.getItem('totalCost')
     let total = 0
-    if (cartCost != null){
-        for (let i=0; i<cartList.length; i++){
-            total += (cartList[i].price * cartList[i].inCart) 
-            localStorage.setItem('totalCost', total)
-        }
-    } else{
+    for (let i=0; i<cartList.length; i++){
+        total += (cartList[i].price * cartList[i].inCart) 
         localStorage.setItem('totalCost', total)
     }
 }
@@ -32,6 +28,7 @@ function addToCart(key){
         cartList.push(data[key])
     }
     localStorage.setItem('cart', JSON.stringify(cartList))
+    totalCart()
 }
 
 //hiển thị giỏ hàng
