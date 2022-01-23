@@ -4,8 +4,8 @@ var arr_hinh=[
     "./Images/pic3.jpg",
     "./Images/pic4.png",
 ]
-
 var index = 0;
+
 function next(){
     index++;
     if(index >= arr_hinh.length)index = 0;
@@ -19,4 +19,5 @@ function pve(){
         index= arr_hinh.length -1;
         document.getElementById("hinh").src= arr_hinh[index];
 }
+
 setInterval("next()", 2000);

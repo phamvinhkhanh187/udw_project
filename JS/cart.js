@@ -1,7 +1,24 @@
+//Hàm tổng tiền 
+function totalCart(){
+    let cartList = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
+    let cartCost = localStorage.getItem('totalCost')
+    let total = 0
+    if (cartCost != null){
+        for (let i=0; i<cartList.length; i++){
+            total += (cartList[i].price * cartList[i].inCart) 
+            localStorage.setItem('totalCost', total)
+        }
+    } else{
+        localStorage.setItem('totalCost', total)
+    }
+}
+
+//Hàm thêm sản phẩm vào giỏ
 function addToCart(key){
     let cartList = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
     var test = 0
     
+    //kiểm tra sản phẩm đã có trong giỏ hay chưa
     for(let i=0; i < cartList.length; i++){
         if(data[key].id == cartList[i].id){
             test = 1
@@ -15,9 +32,9 @@ function addToCart(key){
         cartList.push(data[key])
     }
     localStorage.setItem('cart', JSON.stringify(cartList))
-    totalCart(key);
 }
 
+//hiển thị giỏ hàng
 function showCart(){
     let cartList = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
     let cartCost = localStorage.getItem('totalCost')
@@ -35,25 +52,26 @@ function showCart(){
             </tr>
     `
     })
-
+    totalCart()
     item += `
         <tr class="cart_table_head">
             <th colspan="4">Tổng đơn hàng</th>  
             <th colspan="2">${cartCost} VND</th>
         </tr>
     `
-
     document.getElementById("cartList").innerHTML = item
 }
 
+//Hàm thay đổi số lượng sản phẩm trong giỏ <error>
 function changeQuantily(key){
     let cartList = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
     cartList[key].inCart = document.getElementById('cartQuantily').value
-    alert(cartList[key].inCart)
     localStorage.setItem('cart', JSON.stringify(cartList))
+    totalCart()
     showCart()
 }
 
+//Hàm xóa sản phẩm trong giỏ 
 function deleteInit(key){
     let cartList = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
     if (confirm('Bạn có muốn xóa đơn hàng?'))
@@ -61,16 +79,6 @@ function deleteInit(key){
         cartList.splice(key, 1)
     }
     localStorage.setItem('cart', JSON.stringify(cartList))
+    totalCart()
     showCart()
-}
-
-function totalCart(key){
-    let cartList = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
-    let cartCost = localStorage.getItem('totalCost')
-    let total = 0
-    for (let i=0; i<cartList.length; i++){
-        total += (cartList[i].price * cartList[i].inCart) 
-    }
-    localStorage.setItem('totalCost', total)
-    console.log(total)
 }

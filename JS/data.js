@@ -1,6 +1,6 @@
 let data = [
     {
-        "userId": 1,
+        
         "id": 0,
         "title": "cam",
         "name": "Cam Mật",
@@ -10,7 +10,7 @@ let data = [
         "image": "./Images/cam_mat.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 1,
         "title": "sau rieng",
         "name": "Sầu riêng Cái Mơn",
@@ -20,7 +20,7 @@ let data = [
         "image": "./Images/saurieng_caimon.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 2,
         "title": "sau rieng",
         "name": "Sầu riêng Ri6",
@@ -30,7 +30,7 @@ let data = [
         "image": "./Images/saurieng_ri6.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 3,
         "title": "sau rieng",
         "name": "Sầu riêng Musang King",
@@ -40,7 +40,7 @@ let data = [
         "image": "./Images/saurieng_musangking.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 4,
         "title": "sau rieng",
         "name": "Sầu riêng Thái",
@@ -50,7 +50,7 @@ let data = [
         "image": "./Images/saurieng_thai.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 5,
         "title": "bo",
         "name": "Bơ 034",
@@ -60,7 +60,7 @@ let data = [
         "image": "./Images/bo_034.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 6,
         "title": "bo",
         "name": "Bơ Booth",
@@ -70,7 +70,7 @@ let data = [
         "image": "./Images/bo_booth.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 7,
         "title": "bo",
         "name": "Bơ Fuerte",
@@ -80,7 +80,7 @@ let data = [
         "image": "./Images/bo_fuerte.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 8,
         "title": "bo",
         "name": "Bơ Hass",
@@ -90,7 +90,7 @@ let data = [
         "image": "./Images/bo_hass.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 9,
         "title": "bo",
         "name": "Bơ Sáp",
@@ -100,7 +100,7 @@ let data = [
         "image": "./Images/bo_sap.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 10,
         "title": "bo",
         "name": "Bơ Tứ Quý",
@@ -110,7 +110,7 @@ let data = [
         "image": "./Images/bo_tuquy.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 11,
         "title": "chuoi",
         "name": "Chuối Bom",
@@ -120,7 +120,7 @@ let data = [
         "image": "./Images/chuoi_bom.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 12,
         "title": "chuoi",
         "name": "Chuối Cau",
@@ -130,7 +130,7 @@ let data = [
         "image": "./Images/chuoi_cau.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 13,
         "title": "chuoi",
         "name": "Chuối Tây",
@@ -140,7 +140,7 @@ let data = [
         "image": "./Images/chuoi_tay.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 14,
         "title": "chuoi",
         "name": "Chuối Tiêu",
@@ -150,7 +150,7 @@ let data = [
         "image": "./Images/chuoi_tieu.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 15,
         "title": "chuoi",
         "name": "Chuối Xanh",
@@ -160,7 +160,7 @@ let data = [
         "image": "./Images/chuoi_xanh.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 16,
         "title": "nho",
         "name": "Nho Đỏ",
@@ -170,7 +170,7 @@ let data = [
         "image": "./Images/nho_do.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 17,
         "title": "nho",
         "name": "Nho Móng Tay",
@@ -180,7 +180,7 @@ let data = [
         "image": "./Images/nho_mongtay.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 18,
         "title": "nho",
         "name": "Nho Mỹ",
@@ -190,7 +190,7 @@ let data = [
         "image": "./Images/nho_My.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 19,
         "title": "nho",
         "name": "Nho Nam Phi",
@@ -200,7 +200,7 @@ let data = [
         "image": "./Images/nho_namphi.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 20,
         "title": "nho",
         "name": "Nho Thân Gỗ",
@@ -210,7 +210,7 @@ let data = [
         "image": "./Images/nho_thango.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 21,
         "title": "nho",
         "name": "Nho Xanh",
@@ -220,7 +220,7 @@ let data = [
         "image": "./Images/nho_xanh.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 22,
         "title": "oi",
         "name": "Ổi Bo",
@@ -230,7 +230,7 @@ let data = [
         "image": "./Images/oi_bo.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 23,
         "title": "oi",
         "name": "Ổi Đài Loan",
@@ -240,7 +240,7 @@ let data = [
         "image": "./Images/oi_dailoan.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 24,
         "title": "oi",
         "name": "Ổi Dứa",
@@ -250,7 +250,7 @@ let data = [
         "image": "./Images/oi_dua.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 25,
         "title": "oi",
         "name": "Ổi Nữ Hoàng",
@@ -260,7 +260,7 @@ let data = [
         "image": "./Images/oi_nuhoang.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 26,
         "title": "oi",
         "name": "Ổi Ruột Đỏ",
@@ -270,7 +270,7 @@ let data = [
         "image": "./Images/oi_ruotdo.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 27,
         "title": "oi",
         "name": "Ổi Xá Lị",
@@ -280,7 +280,7 @@ let data = [
         "image": "./Images/oi_xali.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 28,
         "title": "xoai",
         "name": "Xoài Bao Tử",
@@ -290,7 +290,7 @@ let data = [
         "image": "./Images/xoai_baotu.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 29,
         "title": "xoai",
         "name": "Xoài Cát",
@@ -300,7 +300,7 @@ let data = [
         "image": "./Images/xoai_cat.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 30,
         "title": "xoai",
         "name": "Xoài Giống Đài Loan",
@@ -310,7 +310,7 @@ let data = [
         "image": "./Images/xoai_giongDailoan.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 31,
         "title": "xoai",
         "name": "Xoài Keo",
@@ -320,7 +320,7 @@ let data = [
         "image": "./Images/xoai_keo.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 32,
         "title": "xoai",
         "name": "Xoài Tượng",
@@ -330,7 +330,7 @@ let data = [
         "image": "./Images/xoai_tuong.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 33,
         "title": "cam",
         "name": "Cam Sành",
@@ -340,7 +340,7 @@ let data = [
         "image": "./Images/cam_sanh.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 34,
         "title": "cam",
         "name": "Cam Cao Phong",
@@ -350,7 +350,7 @@ let data = [
         "image": "./Images/cam_CaoPhong.jpg"
     },
     {
-        "userId": 1,
+        
         "id": 35,
         "title": "cam",
         "name": "Cam Vinh",
