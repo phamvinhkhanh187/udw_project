@@ -138,7 +138,7 @@ body {
 .pagination button:hover:not(.active) {color: white;}
 
 .footer {
-    padding: 30px;
+    padding: 20px;
     width: 100%;
     height: 250px;
     text-align: left;
@@ -152,11 +152,12 @@ body {
 .link {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    margin: 0 50px;
-    display: inline-block;
+    margin-bottom: 20px;
+    display: flex;
     align-self: center;
     columns: 50%;
-    column-count: auto;
+    column-width: 30%;
+    column-count: flex;
     position: absolute;
 }
 .links {
@@ -178,4 +179,63 @@ body {
     width: 100%;
     float: right;
     display: inline;
+}
+* {
+    box-sizing: border-box;
+}
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+.side {
+    float: right;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: right;
+    width: 70%;
+}
+.left {
+    text-align: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+.bar-5 {width: 80%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 50%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 5%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 2%; height: 18px; background-color: #f44336;}
+@media (max-width: 70%) {
+    .side, .middle {
+    width: 50%;
+    }
+    .left {
+    display: none;
+    }
+}
+.review {
+    align-self: center; 
+    color: #111310; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 200%;
 }
