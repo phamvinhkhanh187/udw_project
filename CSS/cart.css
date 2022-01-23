@@ -14,7 +14,7 @@
     border: unset;
     outline: unset;
     background: var(--primary-color);
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     font-size: 20px;
     transition: 0.2s;
@@ -42,7 +42,7 @@
     border: unset;
     outline: unset;
     background: unset;
-    width: 25%;
+    width: 50%;
 }
 
 .cart_submit{
